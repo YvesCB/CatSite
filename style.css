@@ -8,15 +8,34 @@ header h1{
 	font-weight: 700;
 	text-align: center;
 }
-#cat {
+#cat, #dog {
 	height: 500px;
 	border-radius: 10px;
 }
 article {
 	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+	border-radius: 30px;
+	background-color: antiquewhite;
+	padding: 20px;
 }
-aside {
+footer {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 20px 20px 0px 0px;
+	background-color: antiquewhite;
+	padding: 30px;
+}
+footer p {
+	font-size: 16pt;
+}
+.right {
 	margin-left: 50px;
+	margin-top: 0px;
+}
+.left {
+	margin-right: 50px;
 	margin-top: 0px;
 }
 aside h2 {

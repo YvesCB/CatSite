@@ -12,8 +12,30 @@ function catFact(){
 	document.getElementById("catfact").innerHTML=data["fact"]
 	})
 }
-function doShit() {
+const dogUrl='https://some-random-api.ml/img/dog'
+function dogPic(){
+	$.getJSON(dogUrl, function(data){
+	console.log('Data:' + data["link"])
+	document.getElementById("dog").src=data["link"]
+	});
+}
+const dogfactUrl='https://some-random-api.ml/facts/dog'
+function dogFact(){
+	$.getJSON(dogfactUrl, function(data){
+	console.log('Data:' + data["fact"])
+	document.getElementById("dogfact").innerHTML=data["fact"]
+	})
+}
+function doCatStuff() {
 	catPic();
 	catFact();
 }
-window.onload = doShit();
+function doDogStuff() {
+	dogPic();
+	dogFact();
+}
+function doAll() {
+	doCatStuff();
+	doDogStuff();
+}
+window.onload = doAll();

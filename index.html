@@ -12,23 +12,42 @@
     <script src="script.js"></script>
     <div id="page">
         <header>
-            <h1>CATS!!!</h1>
+            <h1>CATS and DOGS!!!</h1>
         </header>
         <article>
             <div id="content">
                 <div class="catpic">
                     <img id="cat" src="http://placehold.it/110x110">
                 </div>
-                <button class="btn" onclick="doShit()">More CATS!</button>
+                <button class="btn" onclick="doCatStuff()">More CATS!</button>
             </div>
-            <aside>
+            <aside class="right">
                 <h2>Cat fact of the day</h2>
                 <p id="catfact">"Cats are neat" -<emph>Yves</emph></p>
             </aside>
         </article>
         <article>
-            
+            <aside class="left">
+                <h2>Dog fact of the day</h2>
+                <p id="dogfact">"Cats are neat" -<emph>Yves</emph></p>
+            </aside>
+            <div id="content">
+                <div class="dogpic">
+                    <img id="dog" src="http://placehold.it/110x110">
+                </div>
+                <button class="btn" onclick="doDogStuff()">More DOGS!</button>
+            </div>
         </article>
+        <footer>
+            <div>
+                <p>Cats and dogs for cat and dog lovers!</p>
+                <p>(The API is bad so don't hate me!)</p>
+            </div>
+            <div>
+                <p>Yves Bruckmayer</p>
+                <p>APIs used: <a href="https://some-random-api.ml/">some-random-api</a></p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
