@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cats on Demand</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="catFact()">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <div id="page">
+        <header>
+            <h1>CATS!!!</h1>
+        </header>
+        <div id="stuff">
+            <div id="content">
+                <div class="catpic">
+                    <img id="cat" src="http://placehold.it/110x110">
+                </div>
+                <button class="btn" onclick="doShit()">More CATS!</button>
+            </div>
+            <aside>
+                <h2>Cat fact of the day</h2>
+                <p id="catfact">"Cats are neat" -<emph>Yves</emph></p>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>

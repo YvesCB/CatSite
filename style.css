@@ -1,0 +1,49 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+header h1{
+	font-size: 100pt;
+	font-weight: 700;
+	text-align: center;
+}
+#cat {
+	height: 500px;
+	border-radius: 10px;
+}
+#stuff {
+	display: flex;
+}
+aside {
+	margin-left: 50px;
+	margin-top: 0px;
+}
+aside h2 {
+	font-size:36pt;
+	margin-top: 0;
+}
+aside p {
+	font-size: 18pt;
+	font-weight: 600;
+}
+.btn {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ed3330;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+.btn:hover {
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
